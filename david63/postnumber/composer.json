@@ -1,0 +1,30 @@
+{
+	"name": "david63/postnumber",
+	"type": "phpbb-extension",
+	"description": "Adds the post number to posts",
+	"homepage": "",
+	"version": "1.0.0-b1",
+	"time": "2014-07-13",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "David Wood",
+			"username": "david63",
+				"email": "david@webworld.xyz",
+			"homepage": "http://webworld.xyz/viewforum.php?f=6",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Post Number",
+		"soft-require": {
+         "phpbb/phpbb": "3.1.*@dev"
+      },
+		"version-check": {
+			"host": "webworld.xyz",
+			"directory": "/versioncheck",
+			"filename": "postnumber_versions.json"
+		}
+	}
+}

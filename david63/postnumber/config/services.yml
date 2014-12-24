@@ -1,0 +1,7 @@
+services:
+    david63.postnumber.listener:
+        class: david63\postnumber\event\listener
+        arguments:
+            - @template
+        tags:
+            - { name: event.listener }
